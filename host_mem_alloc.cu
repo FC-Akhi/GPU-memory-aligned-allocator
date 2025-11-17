@@ -45,7 +45,7 @@ int main(void) {
 
     // Initialize the arrays
     clock_t t0 = clock();
-    initialData(h_A, N);
+    initialData(h_A, N); // Passing a pointer by value
     initialData(h_B, N);
     clock_t t1 = clock();
 
